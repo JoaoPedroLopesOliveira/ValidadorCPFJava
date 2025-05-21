@@ -24,7 +24,7 @@ git clone https://github.com/seu-usuario/validador-cpf-java.git
 ```
 2. Navegue ate a pasta do projeto:
 ```bash
-cd validador-cpf-java
+cd validadorCPFjava
 ```
 
 3. Compile os arquivos:
