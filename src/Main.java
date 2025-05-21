@@ -5,11 +5,12 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         ValidadorCPF validador = new ValidadorCPF();
-        System.out.println("Iforme o seu cpf(somente os numeros): ");
+        System.out.println("Informe o seu CPF ( somente os números): ");
         if (validador.validarCPF(scanner.nextLine())){
             System.out.println("CPF validado com sucesso!");
         }else {
             System.out.println("CPF invalido!");
         }
+        scanner.close();
     }
 }
